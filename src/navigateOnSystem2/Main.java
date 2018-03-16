@@ -13,6 +13,7 @@ public class Main {
             String userInput = scanner.nextLine();
             System.out.println("User said " + userInput);
 
+
             switch (userInput) {
 
                 case "dir":
@@ -25,11 +26,21 @@ public class Main {
                     //go up in directories
                     break;
                 case "prompt":
-                    //while loop
-                    //implement customized promt
 
-                    
-                    userInput = scanner.nextLine();
+                    boolean customRunning = false;
+                    while(!customRunning){
+                        System.out.println();
+                        userInput = scanner.nextLine();
+
+                        switch(userInput){
+
+
+                        }
+
+
+                    }
+
+
 
 
                     break;
